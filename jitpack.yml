@@ -1,3 +1,3 @@
 install: 
-  - FILE="-Dfile=my-test-library-release.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.kingfisher.gi -DartifactId=test-version-ai -Dversion=1.1 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=livekit-android-sdk-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.dat0106 -DartifactId=test-version-livekit -Dversion=1.1 -Dpackaging=aar -DgeneratePom=true
